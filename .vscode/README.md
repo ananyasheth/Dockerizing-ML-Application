@@ -1,6 +1,5 @@
-# Dockerizing-ML-Application
-This project demonstrates how to containerize a Machine Learning Workflow using Docker.
+This project demonstrates how to containerize a Machine Learning workflow using Docker.
 
-The given ML Classification model predicts the likelihood of a brain stroke using demographic and clinical features such as age, gender, hypertension, heart disease, BMI, and smoking status, which are known to influence cerebrovascular health.
+The ML Classification model predicts the likelihood of diabetes based on key demographic and clinical features such as age, BMI, blood pressure, glucose level, insulin level, and family history — all of which are important risk indicators for diabetes.
 
-The environment is fully containerized using Docker to ensure reproducibility, portability, and consistency across development and deployment stages.
+The entire environment is fully containerized using Docker to ensure reproducibility, portability, and consistency across both development and deployment stages. This allows the ML pipeline to be easily built, tested, and deployed in any environment without dependency issues.
